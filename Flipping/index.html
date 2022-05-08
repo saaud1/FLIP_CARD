@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Flip Card</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <H1>FLIP CARD</H1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>3D product Flip Card</title>
+    </head>
+    <body>
+        <div class="flex-container">
+            <!-- Card -->
+            <div class="card">
+                <!-- usfull div well save us time with css -->
+                <div class="card__content"> 
+                    
+                    <!-- Front -->
+                    <div class="card__front">
+                        <h3 class="cad__title">LimeLight Renhold</h3>
+                        <p class="card__subtitle">An all around service company</p>
+                    </div>
 
+                    <!-- Back -->
+                    <div class="card__back">
+                        <p class="card__body">We are an all-round service provider in Oslo for Real estate, Organizations and Airbnb management. </p>
+                    </div>
 
-    <!-- 1'st Card -->
-    <div id="card">
-        <!-- Front -->
-       
+                </div>
+            </div>
 
-        <div id="front">
-            <h3>Front page title </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit nisi.</p>
+            <div class="card">
+                <div class="card__content"> 
+                    
+                    <div class="card__front" id="me">
+                        <h3 class="cad__title">Saud Al Anzi</h3>
+                        <p class="card__subtitle"> Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></p>
+                    </div>
+
+                    <div class="card__back">
+                        <p class="card__body">A Computer ScienceEngineering major, Web Developer andNetwork Engineering.</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-        <!-- Back -->
-        <div id="back">
-            <p>Ea animi cumque, sed excepturi voluptatum ab adipisci ipsam nulla quasi numquam, cum neque vitae asperiores iste nesciunt. At praesentium blanditii</p>
-        </div>
-    </div>
-
-     <!-- 2nd Card -->
-     <div id="card">
-        <!-- Front -->
-       
-
-        <div id="front">
-            <h3>Front page title </h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit nisi.</p>
-        </div>
-
-        <!-- Back -->
-        <div id="back">
-            <p>Ea animi cumque, sed excepturi voluptatum ab adipisci ipsam nulla quasi numquam, cum neque vitae asperiores iste nesciunt. At praesentium blanditii</p>
-        </div>
-    </div>
-
-
-</body>
+    </body>
 </html>
